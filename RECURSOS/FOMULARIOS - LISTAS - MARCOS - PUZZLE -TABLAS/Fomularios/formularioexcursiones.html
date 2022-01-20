@@ -1,0 +1,118 @@
+<html>
+	<head>
+		<title>Formularios</title>
+	</head>
+	<body>
+		
+		<form method="get"  type="get" action="destino.html" target="_blank"><!-- pos en vez de get lo pasa de forma oculta---->
+		
+			<table border="0" cellspacing="10" cellpadding="0" width="800" height="400" align="center" bgcolor="#d5dee8" >
+				
+				<tr bgcolor="#b9d1ea" cellspacing="10">
+					<td colspan="5" align="center"><br/><h2>Reseva de excursiones</h2></td>
+					
+				</tr>
+				
+				<tr>
+					<td align="left">Nombre</td>
+					<td colspan="3"><input name="nombre" type="text" size="88"/></td>
+					
+				</tr>
+				<tr>
+					<td align="left">Apellidos</td>
+					<td colspan="3"><input name="apellidos" type="text" size="88"/></td>
+					
+				</tr>
+				<tr>
+					<td align="left">Email</td>
+					<td colspan="3"><input name="email" type="text" size="88"/></td>
+					
+				</tr>
+				<tr>
+					<td rowspan="" align="left">Teléfono</td>
+					<td rowspan=""><input name="Telefono" type="text" size="38"/></td>
+					<td rowspan="" align="left">Lugar</td>
+					<td rowspan="" align="left"><select name"lugares" ><option>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </option><option>Abona</option><option>Acentejo</option><option>Anaga</option><option>Área Metropolitana</option><option>Icod-Daute-Isla Baja</option><option>Macizo Central</option><option>Sureste</option><option>Teno</option><option>Valle de Guímar</option><option>Valle de la Orotava</option></select></td>
+				</tr>
+				<tr>
+					<td rowspan="2" align="left">Guía</td>
+					<td align="left"><input name="casas" type="radio" value="si" />Si</td>
+					<td rowspan="3" align="left">Preferencias</td>
+					<td align="left"><input name="estrellas" type="checkbox" value="transporte" />Transporte</td>
+				</tr>
+				<tr>
+					<td align="left"><input name="casas" type="radio" value="no" />No</td>
+					<td align="left"><input name="estrellas" type="checkbox" value="Comida" />Comida</td>
+					
+				</tr>
+				<tr>
+					<td align="left">Nº Plazas</td>
+					<td><select name="plazas" size=""><option>.................</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></td>
+					
+					<td align="left"><input name="estrellas" type="checkbox" value="estancia" />Estancia</td>
+				</tr>
+				<tr>
+					<td align="left">Observaciones</td>
+					<td colspan="3"><textarea name="obsevaciones" cols="90" rows="10"></textarea></td>
+					
+				</tr>
+				<tr>
+					<td></td>
+					<td align="left"><input type="submit" value="Enviar" /></td>
+					<td></td>
+					<td align="center"><input type="reset" value="Borrar" /></td>
+				</tr>
+				
+			</table><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+		
+			Nombre: <input name="nombre" type="text"/><br/><br/>
+			Apellidos: <input name="apellidos" type="text"/><br/><br/><br/><br/>
+			Contraseña: <input name="pass" type="password"/><br/><br/>
+			
+			
+			<input name="estrellas" type="checkbox" value="naranja" />Naranja<br/>
+			<input name="estrellas" type="checkbox" value="amarilla" />Amariila<br/>
+			<input name="estrellas" type="checkbox" value="roja" />Roja<br/><br/><br/>
+			
+			<input name="casas" type="radio" value="1 habitación" />1 habitación
+			<input name="casas" type="radio" value="2 habitaciones" />2 habitaciones
+			<input name="casas" type="radio" value="3 habitaciones" />3 habitaciones
+			
+			
+			<br/><br/><br/>
+			Islas Orientales:
+			<select name="orientales">
+				<option>Elegir......</option>
+				<option>Gran Canaria</option>
+				<option>Lanzarote</option>
+				<option>Fuerteventura</option>
+				<option>La Graciosa</option>
+			</select>
+			
+			<br/><br/><br/>
+			Islas Occidentales:
+			<select name="Occidentales" size="4" multiple>
+			
+				<option>Tenerife</option>
+				<option>La Gomera</option>
+				<option>El Hierro</option>
+				<option>La Palma</option>
+			</select>
+			
+			<br/><br/><br/>
+			Observaciones:<br/><br/>
+			<textarea name="obsevaciones" cols="50" rows="10">
+			</textarea>
+			
+			<br/><br/><br/>
+			<button value="si">Aceptar</button>
+			<button value="no">Cancelar</button>
+			<br/><br/><br/>
+			
+			<input type="submit" value="enviar" />
+			<input type="reset" value="restablecer" /><br/>
+		
+		</form>
+	
+	</body>
+</html>

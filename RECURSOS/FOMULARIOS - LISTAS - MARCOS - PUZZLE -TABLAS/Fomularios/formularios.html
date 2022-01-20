@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<title>Formularios</title>
+	</head>
+	<body>
+
+		<form method="get"><!-- pos en vez de get lo pasa de forma oculta---->
+		
+			Nombre: <input name="nombre" type="text"/><br/><br/>
+			Apellidos: <input name="apellidos" type="text"/><br/><br/><br/><br/>
+			Contraseña: <input name="pass" type="password"/><br/><br/>
+			
+			
+			<input name="estrellas" type="checkbox" value="naranja" />Naranja<br/>
+			<input name="estrellas" type="checkbox" value="amarilla" />Amariila<br/>
+			<input name="estrellas" type="checkbox" value="roja" />Roja<br/><br/><br/>
+			
+			<input name="casas" type="radio" value="1 habitación" />1 habitación
+			<input name="casas" type="radio" value="2 habitaciones" />2 habitaciones
+			<input name="casas" type="radio" value="3 habitaciones" />3 habitaciones
+			
+			
+			<br/><br/><br/>
+			Islas Orientales:
+			<select name="orientales">
+				<option>Elegir......</option>
+				<option>Gran Canaria</option>
+				<option>Lanzarote</option>
+				<option>Fuerteventura</option>
+				<option>La Graciosa</option>
+			</select>
+			
+			<br/><br/><br/>
+			Islas Occidentales:
+			<select name="Occidentales" size="4" multiple>
+			
+				<option>Tenerife</option>
+				<option>La Gomera</option>
+				<option>El Hierro</option>
+				<option>La Palma</option>
+			</select>
+			
+			<br/><br/><br/>
+			Observaciones:<br/><br/>
+			<textarea name="obsevaciones" cols="50" rows="10">
+			</textarea>
+			
+			<br/><br/><br/>
+			<button value="si">Aceptar</button>
+			<button value="no">Cancelar</button>
+			<br/><br/><br/>
+			
+			<input type="submit" value="enviar" />
+			<input type="reset" value="restablecer" /><br/>
+		
+		</form>
+	
+	</body>
+</html>
