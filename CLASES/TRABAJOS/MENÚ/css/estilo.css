@@ -1,13 +1,13 @@
 body
 {
-/* background-image:url("../img/background.jpg") */
+background-image:url("../img/background.jpg")
     
 }
 
 .externa
 {
 border:0px solid black;
-width:auto;
+width:100%;
 margin:auto;
 text-align:center;
 display:inline-block;
@@ -16,22 +16,23 @@ display:inline-block;
 #columna
 {
 border:0px solid black;
-width:auto;
+width:100%;
 display:inline-block;
-text-align:center;
-vertical-align: top;
+vertical-align:top;
+margin: auto;
 
 }
 
 .cajabocadillos
 {
-width:19%;
+border:0px solid black;
+width: 20%;
 display:inline-block;
 border:5px solid black;
 border-radius:10px;
 margin:auto;
 text-align:left;
-min-width:400px;
+min-width:500px;
 padding:5;
 vertical-align:top;
 margin:5;
