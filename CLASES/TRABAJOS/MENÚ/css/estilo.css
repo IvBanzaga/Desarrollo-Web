@@ -1,14 +1,13 @@
 body
 {
-background-image:url("../img/background.jpg")
+/* background-image:url("../img/background.jpg") */
     
 }
 
 .externa
 {
 border:0px solid black;
-height:auto;
-width:100%;
+width:auto;
 margin:auto;
 text-align:center;
 display:inline-block;
