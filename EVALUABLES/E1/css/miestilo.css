@@ -1,10 +1,11 @@
 .externa
 {
-border:0px solid black;
+border:1px solid black;
 height:auto;
 width:90%;
 margin:auto;
 text-align:center;
+
 }
 .intro-text 
 {
@@ -14,13 +15,21 @@ font-size: 200%;
 }
 .intro-productos
 {  
-    text-align: center;
-    font-size: 150%;
+
+font-size: 150%;
+width: 100%;
+display:inline-block;
+vertical-align:top;
+min-width:300;
 }
 .intro-info
 {	
-    text-align: left;
-    font-size: 100%;	
+text-align: left;
+font-size: 100%;	
+width: :100%;
+display:inline-block;
+vertical-align:top;
+min-width:300;
 }
 #textalingleft
 {
@@ -39,7 +48,25 @@ width:95%;
 margin:auto;
 text-align:left;
 font-style:bold;
-}           	
+}
+
+#cabecera{
+width:99%;
+display:inline-block;
+margin-bottom:10;
+}
+
+.imagen1
+{
+width:100%;
+
+}
+
+.imagenlogo
+{
+width:80%;
+
+}
 .caja
 {
 border:0px solid black;
@@ -47,20 +74,46 @@ width:100%;
 height:auto;
 display:inline-block;
 vertical-align:top;
-min-width:400;	
 margin:auto;
 margin-bottom:20;
 }
-.cajaproductos
+
+.cajayoutube
 {
 border:0px solid black;
-width:30%;
+width:100%;
+height:315px;
+display:inline-block;
+vertical-align:top;
+margin:auto;
+margin-bottom:20;
+min-width:400px;
+}
+.cajaformulario
+{
+border:0px solid black;
+width:auto;
 height:auto;
 display:inline-block;
 vertical-align:top;
 min-width:400;	
-margin:10px
-text-align: center;
+margin:auto;
+margin-bottom:20;
+text-align: left;
+
+
+}
+.cajaproductos
+{
+border:0px solid black;
+width:32%;
+height:auto;
+display:inline-block;
+
+min-width:400px;
+margin:4px;
+
+
 }
 
 #contenedor
@@ -74,13 +127,21 @@ min-width:400;
 margin:auto;
 margin-bottom:20;
 }
+#contenedorproductos
+{
+border:0px solid black;
+width:auto;
+height:auto;
+display:inline-block;
+text-align: center;
+min-width:400;	
+margin:auto;
+margin-bottom:20;
+}
 #cajalogo
 {
-vertical-align:middle;
-margin:auto;width:22%;
-border:0px solid black;
 display:inline-block;
-min-width:300;
+margin-right:1200px;
 }		
 .cajalogolateral
 {

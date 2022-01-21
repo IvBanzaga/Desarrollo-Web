@@ -10,29 +10,61 @@
 
 <body>
     <div class="externa"> <!-- Contenedor de la página -->
-        <div class="caja">
-            <div id="cajalogo">
-                <a href="index.html"><img src="img/logo.png" alt="plantilla"/></a>	
-            </div>
-            <div class="cajalogolateral"> </div> <!-- espacio vacio para ubicar el logo -->
-        </div>
+        <div id="cajalogo">
+            
+                <a href="index.html"><img class="imagenlogo" src="img/logo.png" alt="logo"/></a>	
+            
            
+        </div>
+    <iframe class="cajayoutube" width="560" height="315" src="https://www.youtube.com/embed/82xXaSHcnpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     
+    <section class="cajaformulario"><!--Formulario-->
+        <h1>Formulario de Registro</h1>
+            <form action="" method="post" >
+            
+                    <fieldset style="width:auto;">
+                <legend>Información Personal:</legend><br><br>
+                <label>Nombre: </label><input type="text" name="nom"><br><br>
+                <label>Apellidos: </label><input type="text" name="nom"><br><br>
+                Sexo<input type="radio" name="gender" value="hombre" checked> Hombre<input type="radio" name="gender" value="mujer"> Mujer<br><br>
+                <label>Enail: </label><input type="email" name="email"><br><br>
+                Población
+                <select name="población">
+                    <option value="iphone">Tenerife</option>
+                    <option value="samsung">La Palma</option>
+                    <option value="huawei">La Gomera</option>
+                    <option value="Otro">El Hierro</option>
+                </select><br><br>
+                <label>Comentarios: </label><textarea rows="4" cols="16">Esto es una textarea.</textarea><br><br>
+            
+                <input type="checkbox" name="vehicle1" value="Coche"> Deseo recibir información sobre novedades y ofertas<br>
+                <input type="checkbox" name="vehicle2" value="Carnet"> Declaro haber leído y aceptado las condiciones<br><br>
+    
+                <input type="submit" value="Enviar">
+            </fieldset><br>
+                </table>
+        </form>
+        
+    </section>
     <div class="caja">
         <div class="intro-text">
             <h1>Cafetería el sueño de Lucía</h1>
         </div>
     </div>
-    <div class="caja">
-        <img src="img/lucia.jpg" alt="lucia"/>
+    <div id="contenedorproductos">
+    <div class="cajaproducos">
+        <img class="imagen1" src="img/lucia.jpg" alt="lucia"/>
+    </div>
     </div>
     <br>
     <div id="textalingleft">
         <h2>Nuestra especialidad</h2>
    
-    <div id="contenedor"> <!-- caja que contiene las cajas de productos -->
+    <div id="contenedorproductos"> <!-- caja que contiene las cajas de productos -->
         <div class="cajaproductos">
-            <div class="intro-productos"><h1>Café</h1></div> <!-- Formato de texto  -->
-                <img src="img/cafe.jpg" width="400" height="400" alt="Taza de Café"/>
+                <div class="intro-productos">
+                    <h1>Café</h1>
+                </div> <!-- Formato de texto  -->
+                <img class="imagen" src="img/cafe.jpg" width="400" height="400" alt="Taza de Café"/>
                     <div class="intro-info"><h3>Café</h3>
 		        	    <dl>
 				            <dd>Negro</dd>
@@ -44,7 +76,7 @@
         </div>
         <div class="cajaproductos">
             <div class="intro-productos"><h1>Chocolate</h1></div> <!-- Formato de texto -->
-                <img src="img/choco.jpg" width="400" height="400" alt="Taza de Café"/>
+                <img class="imagen" src="img/choco.jpg" width="400" height="400" alt="Taza de Café"/>
                     <div class="intro-info"><h3>Chocolate</h3>
                         <dl>
                             <dd>Negro</dd>
@@ -55,8 +87,10 @@
                     </div>
         </div>
         <div class="cajaproductos">
-            <div class="intro-productos"><h1>Te</h1></div> <!-- Formato de texto -->
-                <img src="img/te.jpg" width="400" height="400" alt="Taza de Café"/>
+            <div class="intro-productos">
+                <h1>Te</h1>
+            </div> <!-- Formato de texto -->
+                <img class="imagen" src="img/te.jpg" width="400" height="400" alt="Taza de Café"/>
                     <div class="intro-info"><h3>Te</h3>
                         <dl>
                             <dd>Negro</dd>
@@ -65,7 +99,9 @@
                         </dl>
                      </div>
         </div>
-        </div>
+    </div>
+    
+        <div id="contenedor">
             <div id="textalingleft2"> <!-- Formato de texto -->
                 <h2>Pedidos para llevar</h2>
             </div>
@@ -91,5 +127,6 @@
                 </ul>
             </ul>
         </div>
+    
     </body>
 </html>

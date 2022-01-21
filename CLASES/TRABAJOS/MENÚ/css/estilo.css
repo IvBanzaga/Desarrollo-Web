@@ -1,0 +1,44 @@
+.externa
+{
+border:1px solid black;
+height:auto;
+width:100%;
+margin:auto;
+text-align:center;
+display:inline-block;
+}
+
+#columna
+{
+border:1px solid black;
+width:45%;
+height:auto;
+display:inline-block;
+vertical-align:top;
+min-width:400px;	
+margin:auto;
+
+}
+
+.cajabocadillos
+{
+border:1px solid black;
+width:10%;
+height:10%;
+display:inline-block;
+min-width:300px;
+margin:5px;
+}
+
+.imagen
+{
+width:100%;
+height:100%;
+}
+
+.intro-text 
+{
+padding-bottom: 50px;
+text-align: center;
+font-size: 200%;
+}
