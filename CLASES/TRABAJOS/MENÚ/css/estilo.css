@@ -1,3 +1,7 @@
+body
+{
+    background-image:url("../imagenes/background.jpg");
+}
 .externa
 {
 border:1px solid black;
@@ -17,6 +21,7 @@ display:inline-block;
 vertical-align:top;
 min-width:400px;	
 margin:auto;
+margin-block:50px;
 
 }
 
@@ -28,6 +33,7 @@ height:10%;
 display:inline-block;
 min-width:300px;
 margin:5px;
+margin-bottom:20px;
 }
 
 .imagen
@@ -41,4 +47,13 @@ height:100%;
 padding-bottom: 50px;
 text-align: center;
 font-size: 200%;
+}
+
+.h1
+{
+ font-size: 30px; 
+ font-family: 'Courier New', Courier, monospace;
+ font-style: normal;
+ font-weight: bold;
+ color:blue;  
 }
