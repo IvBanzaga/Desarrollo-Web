@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <!-- Metadata -->
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bases de CSS3</title>
+        <meta name="keywords" content="HTML5, CSS3, Javascript">
+        <meta name="author" content="Candy González">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <!-- Estilos CSS -->
+		<style>
+			body {
+			    background-color: lightblue;
+
+			    /*  Colores:
+			    	Nombre de color - como "red"
+					valor HEX - como "# FF0000"
+					valor RGB - como "rgb (255,0,0)"
+					********************************
+				    Otras propiedades:
+				    background-image: url("img_tree.png");
+	    			background-repeat: no-repeat;
+	    			background-position: right top;
+	    			background-attachment: fixed; */
+			}
+
+			h1 {
+			    color: white;
+			    text-align: center;
+			    font-family: verdana;
+				font-size: 300%;
+			}
+			h2 {
+			    text-align: center;
+			    text-transform: uppercase;
+			    letter-spacing: 3px;
+			    color: #4CAF50;
+			    /* Otras posibilidades:
+			    	    text-transform: lowercase; 
+			    	    text-transform: capitalize;
+			    */
+			}
+
+			p {
+			    font-family: verdana;
+			    /*	font-family: "Times New Roman", Times, serif;
+			    	font-variant: small-caps; (versalles)   
+				*/
+			    font-size: 20px;
+			    margin-top: 100px;
+			    margin-bottom: 100px;
+			    margin-right: 150px;
+			    margin-left: 80px;
+			    /*  margin: 25px 50px 75px 100px; 
+					sigue el sentido de las agujas del reloj 
+				*/
+			    text-align: justify;
+			    text-indent: 50px;	/* sangría */
+			    line-height: 1.8;
+			    
+			}
+
+			#p01 {
+				color: blue;
+				}
+			p.error {
+				color: red;
+				}
+				
+			#p02 {
+				border: 1px solid powderblue;
+				padding: 30px;
+				}
+
+
+			p.dotted {border-style: dotted;}
+			p.dashed {border-style: dashed;}
+			p.solid {border-style: solid;}
+			p.double {border-style: double;}
+			p.groove {border-style: groove;}
+			p.ridge {border-style: ridge;}
+			p.inset {border-style: inset;}
+			p.outset {border-style: outset;}
+			p.none {border-style: none;}
+			p.hidden {border-style: hidden;}
+			p.mix {border-style: dotted dashed solid double;}
+			/* Otras propiedades
+				border-width: 5px;
+				border-color: red;
+				border-radius: 5px;
+			*/
+			
+			div {
+			    border: 1px solid black;
+			    background-color: white;
+			    height: 150px;
+    			width: 30%;
+			    /* Los CSS paddingpropiedades se utilizan para generar espacio alrededor 
+			    de contenido de un elemento*/
+			    padding-top: 50px;
+			    padding-right: 30px;
+			    padding-bottom: 40px;
+			    padding-left: 80px;
+			    /* padding: 50px 30px 40px 80px; */
+			}
+
+			img {
+				border: 1px solid #ddd;
+			    border-radius: 4px;
+			    padding: 5px;
+			    /*Para hacerla reesponsive*/
+			    max-width: 100%;
+    			height: auto;
+    			/*Para centrar una imagen*/
+    			display: block;
+    			margin-left: auto;
+    			margin-right: auto;
+			}
+
+			/*  links */
+			a:link {
+			    color: red;
+			}
+
+			/* visitado */
+			a:visited {
+			    color: green;
+			}
+
+			/* mouse over link */
+			a:hover {
+			    color: hotpink;
+			}
+
+			/* selected link */
+			a:active {
+			    color: blue;
+			}
+
+		</style>
+		
+
+	</head>
+<body>
+	<h1 style="color:green;">This is a Blue Heading</h1>
+	<h1>This is a heading</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius orci ut fermentum finibus. Nulla non ipsum eget lorem pellentesque tincidunt eu sit amet nibh. Praesent congue sit amet purus nec ultricies. Sed convallis purus et aliquam elementum. Duis vitae mattis odio. Nam mi neque, rhoncus eu turpis et, dictum faucibus ligula. Fusce nec viverra turpis, porta ultrices ante. Mauris risus tortor, pellentesque id sem rhoncus, porttitor consectetur lacus. Donec hendrerit ornare elit, ac convallis lorem porttitor et. Nulla malesuada ultricies nisi, quis scelerisque mi cursus ut. Morbi nibh magna, porttitor vestibulum metus vel, faucibus malesuada urna. Nullam est quam, accumsan et augue quis, lacinia elementum enim. Vestibulum elementum nisi ut condimentum commodo. Aenean hendrerit egestas mauris, et bibendum nisl porta ut.</p>
+	<p id="p01">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius orci ut fermentum finibus. Nulla non ipsum eget lorem pellentesque tincidunt eu sit amet nibh. Praesent congue sit amet purus nec ultricies.</p>
+	<p class="error">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius orci ut fermentum finibus. Nulla non ipsum eget lorem pellentesque tincidunt eu sit amet nibh. Praesent congue sit amet purus nec ultricies.</p>
+	<p id="p02">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius orci ut fermentum finibus. Nulla non ipsum eget lorem pellentesque tincidunt eu sit amet nibh. Praesent congue sit amet purus nec ultricies.</p>
+	<h2>Distintos tipos de bordes</h2>
+		<p class="dotted">Borde de puntos</p>
+		<p class="dashed">Borde de guiones</p>
+		<p class="solid">Borde sólido</p>
+		<p class="double">Borde de doble línea</p>
+		<p class="groove">Borde gravado</p>
+		<p class="ridge">Borde elevado</p>
+		<p class="inset">Borde hundido</p>
+		<p class="outset">Borde en relieve</p>
+		<p class="none">Sin borde</p>
+		<p class="hidden">Borde oculto</p>
+		<p class="mix">Borde mixto</p>
+	
+	<h2>Bloque con margen interno</h2>
+	<div>
+		Este bloque tiene un top padding de 50px, un right pundding de 30px, un bottom padding de 50px, y un left padding de 80px.<br>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius orci ut fermentum finibus. Nulla non ipsum eget lorem pellentesque tincidunt eu sit amet nibh. Praesent congue sit amet purus nec ultricies.
+	</div>
+	<img src="img/elemento_caja.png">
+
+	<h2>Insertar iconos </h2>
+		<i class="fab fa-accessible-icon fa-3x"></i><br>
+		<i class="fas fa-camera-retro"></i><br> 
+		<i class="fas fa-camera-retro fa-3x"></i><br>
+	<div>
+	<h2>Links</h2>
+		<a href="https://fontawesome.com/icons?d=gallery" target="blank">
+			https://fontawesome.com/icons?d=gallery 
+		</a>
+	</div>
+
+		
+</body>
+</html>
