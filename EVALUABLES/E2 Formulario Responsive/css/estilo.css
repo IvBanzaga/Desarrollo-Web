@@ -1,16 +1,14 @@
 td {
     border: white 0px solid;
-    
   }
 
 table {
     border: white 0px solid;
-    min-width:400px;
-    width: 600px;
+    width: 100%;
     height:100%;
   }
 
-.externa
+/* .externa
 {
 border:0px solid black;
 height:auto;
@@ -18,18 +16,18 @@ width:100%;
 margin:auto;
 text-align:left;
 
-}
+} */
 
 .interna
 {
 border:0px solid black;
 height:auto;
-width:50%;
+width:100%;
 margin:auto;
 vertical-align: top;
 min-width:400px;
 
-}
+} 
 
 #span 
 {
@@ -37,3 +35,10 @@ color: brown;
 font-size: 20px;
 
 }
+
+/* @media (max-width:400px) {
+  .responsive{
+          display:none;
+  }
+
+} */
