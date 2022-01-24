@@ -156,3 +156,23 @@ border:0px solid black;
 width:90%;
 min-width:300px;
 }
+
+/*  links */
+a:link {
+    color: red;
+}
+
+/* visitado */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}

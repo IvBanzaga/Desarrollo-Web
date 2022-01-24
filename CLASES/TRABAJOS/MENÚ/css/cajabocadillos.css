@@ -11,6 +11,7 @@ min-width:250;
 vertical-align:top;
 margin:5;
 background-color:blueviolet;
+border-style: dashed;
 }
 
 .cajabocadillos2
@@ -26,6 +27,7 @@ min-width:250;
 vertical-align:top;
 margin:5;
 background-color: darkgreen;
+border-style: double;
 }
 .cajabocadillos3
 {
@@ -40,6 +42,7 @@ min-width:250;
 vertical-align:top;
 margin:5;
 background-color: orangered;
+border-style: ridge;
 }
 .cajabocadillos4
 {
@@ -54,6 +57,7 @@ min-width:250;
 vertical-align:top;
 margin:5;
 background-color: palevioletred;
+border-style: none;
 }
 .precio{
     font-size:30;
