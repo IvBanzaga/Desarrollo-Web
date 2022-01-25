@@ -1,0 +1,65 @@
+/***********************************************************/
+/***              Estilos CSS                            ***/
+/***********************************************************/
+
+body {
+    background: #FFFFFF;
+    padding: 20px 30px;
+    margin: auto;
+    line-height:1.5;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+h1 {font-size: 36px}
+h2 {font-size: 30px}
+h3 {font-size: 24px}
+h4 {font-size: 20px}
+h5 {font-size: 18px}
+h6 {font-size: 16px}
+
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: #333333;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.image {max-width: 100%;height:auto}
+.opacity,.hover-opacity:hover {opacity: 0.50}
