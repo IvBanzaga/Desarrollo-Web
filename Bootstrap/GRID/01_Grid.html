@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <title>Bootstrap</title>
+   <!-- CSS  -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container-fluid pt-3"> <!-- Contenedor de nuestra web, fluid ocupa todo el ancho de la ventana, pt-3 padding de 16px, más info https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp -->
+      <h1>Aprendiendo a usar Bootstrap</h1>
+      <p>Una demostración del Grid de bootstrap</p>
+   
+   <!-- Grid: https://www.w3schools.com/bootstrap4/bootstrap_grid_basic.asp-->
+
+    <div class="row">   <!-- Una fila -->
+      <div class="col" style="background-color:rgb(158, 189, 236);">.col</div> <!-- Una columna básica -->  
+      <div class="col" style="background-color:rgb(42, 173, 233);">.col</div>
+      <div class="col" style="background-color:rgb(11, 87, 185);">.col</div>
+    </div>
+
+    <div class="row">
+       <!-- Columnas que se apilan en ventanas menores a 576px -->  
+      <div class="col-sm-4" style="background-color:rgb(241, 235, 175);">.col-sm-4</div>
+      <div class="col-sm-4" style="background-color:rgb(240, 209, 110);">.col-sm-4</div>
+      <div class="col-sm-4" style="background-color:rgb(243, 170, 61);">.col-sm-4</div>
+    </div>
+
+    <div class="row">
+      <!-- Columnas que se apilan en ventanas menores a 576px -->  
+     <div class="col-md-4" style="background-color:rgb(93, 226, 110);">.col-md-4</div>
+     <div class="col-md-4" style="background-color:rgb(7, 165, 46);">.col-md-4</div>
+     <div class="col-md-4" style="background-color:rgb(7, 122, 17);">.col-md-4</div>
+   </div>
+
+   <div class="row">
+      <!-- Columnas que se apilan en ventanas menores a 576px -->  
+     <div class="col-lg-4" style="background-color:rgb(241, 235, 175);">.col-lg-4</div>
+     <div class="col-lg-4" style="background-color:rgb(240, 209, 110);">.col-lg-4</div>
+     <div class="col-lg-4" style="background-color:rgb(243, 170, 61);">.col-lg-4</div>
+   </div>
+   
+   <div class="row">
+      <!-- Columnas que se apilan en ventanas menores a 576px -->  
+     <div class="col-xl-4" style="background-color:rgb(226, 93, 122);">.col-xl-4</div>
+     <div class="col-xl-4" style="background-color:rgb(172, 15, 15);">.col-xl-4</div>
+     <div class="col-xl-4" style="background-color:rgb(146, 5, 5);">.col-xl-4</div>
+   </div>
+   
+   </div>   <!-- Cierra el contenedor -->
+<!-- Librerías de JavaScript  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
+</html>

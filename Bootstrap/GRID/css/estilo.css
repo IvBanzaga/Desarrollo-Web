@@ -1,0 +1,75 @@
+
+/* Un grid con area */
+.contenedor {
+    display: grid;
+    grid-template-areas: 'h h h h h h h h h h h h'
+                         'h h h h h h h h h h h h'
+                         'm m m m m m m m m m m m'
+                         's s s s s s a a a a l l'
+                         'f f f f f f f f f f f f';
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 1%;
+  } 
+  .contenedor > div {
+    background-color: gray;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5%;
+  }
+
+ .h {
+     grid-area: h;
+ } 
+
+ .m{
+     grid-area: m;
+ }
+
+ .s {
+     grid-area: s;
+ }
+
+ .a {
+    grid-area: a;
+}
+
+.l {
+    grid-area: l;
+}
+
+.f {
+    grid-area: f;
+}
+
+/* Un grid con columnas */
+/*-----------------------------------------------------------------------------------------------
+ Puedes usar la propiedad:
+ grid-template-columns: auto auto auto auto; 
+ donde cada auto será una columna de ancho automático
+ yluego crear clases para determinar cuantas columnas quieres abarcar con las propiedades:
+  grid-row-start 
+  grid-row-end
+ puedes ver más información en: https://www.w3schools.com/css/css_grid.asp
+
+ Ejemplo
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap:10px;
+    background-color: indianred;
+    padding: 10px;
+}
+ .contenedor > div {
+    background-color: gray;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 5%;
+  }
+.h {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+-------------------------------------------------------------------------------------------------*/
